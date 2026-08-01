@@ -187,20 +187,7 @@
     },
     {
       "time": 425,
-      "text": "To Wood",
-      "icons": [
-        {
-          "icon": "wood"
-        }
-      ],
-      "economy": {
-        "food": 15,
-        "wood": 5
-      }
-    },
-    {
-      "time": 450,
-      "text": "Research Loom",
+      "text": "To Wood. Research Loom.",
       "icons": [
         {
           "icon": "loom"
@@ -212,7 +199,7 @@
       }
     },
     {
-      "time": 475,
+      "time": 450,
       "text": "Click to Feudal",
       "icons": [
         {
@@ -220,8 +207,8 @@
         }
       ],
       "economy": {
-        "food": 15,
-        "wood": 5
+        "food": 10,
+        "wood": 10
       }
     },
     {
@@ -233,7 +220,7 @@
       }
     },
     {
-      "time": 630,
+      "time": 580,
       "text": "Research DB Axe. Build Two Ranges.",
       "icons": [
         {
@@ -250,7 +237,7 @@
       }
     },
     {
-      "time": 650,
+      "time": 550,
       "text": "Mining camp. 7 to gold.",
       "icons": [
         {

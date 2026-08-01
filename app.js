@@ -19,6 +19,8 @@ const ecoCountEls = {
   gold: document.getElementById("eco-gold"),
   stone: document.getElementById("eco-stone"),
 };
+const ecoBuilderItem = document.getElementById("eco-builder-item");
+const ecoBuilderCount = document.getElementById("eco-builder");
 
 const SKIP_IN_GAME_SECONDS = 5;
 const RESOURCE_TYPES = ["food", "wood", "gold", "stone"];
@@ -93,6 +95,8 @@ async function openBuild(id) {
       for (const type of RESOURCE_TYPES) {
         checkpoint[type] = step.economy[type] || 0;
       }
+      checkpoint.hasBuilder = Object.prototype.hasOwnProperty.call(step.economy, "builder");
+      checkpoint.builder = step.economy.builder || 0;
       return checkpoint;
     });
   currentEconomyIndex = -1;
@@ -170,6 +174,10 @@ function setEconomyTally(checkpoint) {
   for (const type of RESOURCE_TYPES) {
     ecoCountEls[type].textContent = checkpoint ? checkpoint[type] : 0;
   }
+
+  const showBuilder = Boolean(checkpoint && checkpoint.hasBuilder);
+  ecoBuilderItem.hidden = !showBuilder;
+  ecoBuilderCount.textContent = showBuilder ? checkpoint.builder : 0;
 }
 
 function updateEconomyTally(currentTime) {

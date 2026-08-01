@@ -1,5 +1,11 @@
 [
   {
+    "id": "dragonstar_two_range_archers",
+    "title": "Dragonstar Two Range Archers",
+    "duration_in_game_seconds": 730,
+    "audio_generated_at": "2026-08-01T22:18:15Z"
+  },
+  {
     "id": "fast_castle_knights",
     "title": "Fast Castle Knights",
     "duration_in_game_seconds": 830,

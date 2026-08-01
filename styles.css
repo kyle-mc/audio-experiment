@@ -160,6 +160,10 @@ main {
   color: var(--text);
 }
 
+.eco-item[hidden] {
+  display: none;
+}
+
 .eco-icon {
   width: 40px;
   height: 40px;
