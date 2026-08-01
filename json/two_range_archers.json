@@ -210,7 +210,20 @@
     },
     {
       "time": 450,
-      "text": "Click to Feudal. Send 5 Villagers from food to second Wood Line.",
+      "text": "Click to Feudal",
+      "icons": [
+        {
+          "icon": "feudal_age"
+        }
+      ],
+      "economy": {
+        "food": 9,
+        "wood": 11
+      }
+    },
+    {
+      "time": 460,
+      "text": "Send 5 Villagers from food to second Wood Line.",
       "icons": [
         {
           "icon": "feudal_age"
@@ -227,7 +240,7 @@
       }
     },
     {
-      "time": 470,
+      "time": 475,
       "text": "Send 3 villagers to Gold.",
       "icons": [
         {
@@ -241,6 +254,11 @@
         "wood": 11,
         "gold": 3
       }
+    },
+    {
+      "time": 500,
+      "text": "Build a Barracks and a house",
+      "icons": [{ "icon": "barracks" }, { "icon": "house" }]
     },
     {
       "time": 580,
