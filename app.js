@@ -2,6 +2,7 @@ const siteHeader = document.querySelector(".site-header");
 const buildList = document.getElementById("build-list");
 const player = document.getElementById("player");
 const playerTitle = document.getElementById("player-title");
+const playerGeneratedAt = document.getElementById("player-generated-at");
 const audioEl = document.getElementById("audio-el");
 const playPauseBtn = document.getElementById("play-pause");
 const skipBackBtn = document.getElementById("skip-back");
@@ -47,10 +48,10 @@ async function loadManifest() {
   renderBuildList(currentManifest);
 }
 
-function staleBadgeHtml(isStale) {
-  return isStale
-    ? '<span class="stale-badge" title="The build order text has changed since this audio was generated">Audio outdated</span>'
-    : "";
+function formatGeneratedAt(isoString) {
+  if (!isoString) return "";
+  const date = new Date(isoString);
+  return date.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
 }
 
 function renderBuildList(manifest) {
@@ -58,7 +59,7 @@ function renderBuildList(manifest) {
   for (const build of manifest) {
     const button = document.createElement("button");
     button.className = "build-button";
-    button.innerHTML = `<span class="build-title">${build.title}${staleBadgeHtml(build.audio_stale)}</span><span class="duration">${formatTime(build.duration_in_game_seconds)}</span>`;
+    button.innerHTML = `<span class="build-title">${build.title}</span><span class="duration">${formatTime(build.duration_in_game_seconds)}</span>`;
     button.addEventListener("click", () => openBuild(build.id));
     buildList.appendChild(button);
   }
@@ -73,8 +74,9 @@ async function openBuild(id) {
   playPauseBtn.setAttribute("aria-label", "Play");
   setSpeed(0);
 
+  playerTitle.textContent = build.title;
   const manifestEntry = currentManifest.find((b) => b.id === id);
-  playerTitle.innerHTML = `${build.title}${staleBadgeHtml(manifestEntry && manifestEntry.audio_stale)}`;
+  playerGeneratedAt.textContent = formatGeneratedAt(manifestEntry && manifestEntry.audio_generated_at);
   audioEl.src = `audio/${id}.mp3`;
   audioEl.currentTime = 0;
   currentGameSpeed = build.game_speed;
@@ -110,6 +112,10 @@ function renderTimeline() {
     const li = document.createElement("li");
     li.className = step.mute ? "timeline-step muted" : "timeline-step";
     li.innerHTML = `<span class="step-time">${formatTime(step.time)}</span><span class="step-text">${step.text}</span>${renderIcons(step.icons)}`;
+    li.addEventListener("dblclick", () => {
+      audioEl.currentTime = step.audioTime;
+      audioEl.play();
+    });
     timelineEl.appendChild(li);
     return li;
   });

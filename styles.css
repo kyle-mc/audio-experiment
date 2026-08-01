@@ -90,19 +90,6 @@ main {
   min-width: 0;
 }
 
-.stale-badge {
-  flex-shrink: 0;
-  padding: 0.15rem 0.5rem;
-  border-radius: 999px;
-  background: #6b4a12;
-  border: 1px solid #a3781f;
-  color: #ffdca0;
-  font-size: 0.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-}
-
 .player {
   display: flex;
   flex-direction: column;
@@ -132,13 +119,22 @@ main {
 }
 
 .back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: none;
   border: none;
   color: var(--text);
-  font-size: 1.2rem;
   cursor: pointer;
-  padding: 0.2rem 0.4rem;
+  padding: 0.3rem;
+  border-radius: 50%;
   flex-shrink: 0;
+  transition: background 0.15s ease;
+}
+
+.back-button:hover,
+.back-button:focus-visible {
+  background: var(--surface-raised);
 }
 
 .player-info {
@@ -172,10 +168,21 @@ main {
 
 .player-info h2 {
   margin: 0 0 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.generated-at {
+  position: fixed;
+  top: 1rem;
+  right: 1.5rem;
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  font-style: italic;
+  z-index: 20;
 }
 
 .player-controls {
@@ -186,13 +193,13 @@ main {
 
 .play-pause {
   flex-shrink: 0;
-  width: 2.2rem;
-  height: 2.2rem;
+  width: 3.3rem;
+  height: 3.3rem;
   border-radius: 50%;
   border: none;
   background: var(--accent);
   color: #1a1a1a;
-  font-size: 0.9rem;
+  font-size: 1.35rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -201,13 +208,13 @@ main {
 
 .skip-button {
   flex-shrink: 0;
-  height: 2rem;
-  padding: 0 0.6rem;
+  height: 3rem;
+  padding: 0 0.9rem;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--surface-raised);
   color: var(--text);
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-variant-numeric: tabular-nums;
   cursor: pointer;
 }
@@ -217,15 +224,27 @@ main {
   border-color: var(--accent-dim);
 }
 
+.skip-icon {
+  display: inline-block;
+}
+
+.skip-icon-back {
+  transform: rotate(-90deg);
+}
+
+.skip-icon-forward {
+  transform: rotate(90deg);
+}
+
 .speed-button {
   flex-shrink: 0;
-  height: 2rem;
-  padding: 0 0.7rem;
+  height: 3rem;
+  padding: 0 1.05rem;
   border-radius: 999px;
   border: 1px solid var(--border);
   background: var(--surface-raised);
   color: var(--text);
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-weight: 600;
   cursor: pointer;
   opacity: 0.75;
@@ -281,6 +300,8 @@ main {
   color: var(--text-dim);
   transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
   scroll-margin: 6rem;
+  user-select: none;
+  cursor: pointer;
 }
 
 .timeline-step .step-time {

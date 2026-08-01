@@ -12,7 +12,7 @@
     {
       "time": 25,
       "text": "Villager 4 to Sheep",
-      "icons": [{ "icon": "food", "label": "6", "label_position": "before" }],
+      "icons": [{ "icon": "sheep", "label": "6", "label_position": "before" }],
       "economy": { "food": 4 }
     },
     {
@@ -120,9 +120,14 @@
       "economy": { "food": 10, "wood": 9 }
     },
     {
+      "time": 500,
+      "text": "Build a Barracks",
+      "icons": [{ "icon": "barracks" }]
+    },
+    {
       "time": 555,
-      "text": "Build a Stable. Research techs. Build farms.",
-      "icons": [{ "icon": "stable" }]
+      "text": "Build a Stable. Double-bit Axe.",
+      "icons": [{ "icon": "stable" }, { "icon": "double_bit_axe" }, { "icon": "horse_collar" }]
     },
     {
       "time": 580,

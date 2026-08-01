@@ -16,15 +16,20 @@
     <section id="build-list" class="build-list" aria-label="Build orders"></section>
 
     <section id="player" class="player" hidden>
+      <p id="player-generated-at" class="generated-at"></p>
       <div class="player-bar">
         <div class="player-bar-top">
-          <button id="back-button" class="back-button" aria-label="Back to list">&larr;</button>
+          <button id="back-button" class="back-button" aria-label="Back to list">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true">
+              <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" />
+            </svg>
+          </button>
           <div class="player-info">
             <h2 id="player-title"></h2>
             <div class="player-controls">
-              <button id="skip-back" class="skip-button" aria-label="Back 5 in-game seconds">&#8634;5</button>
+              <button id="skip-back" class="skip-button" aria-label="Back 5 in-game seconds"><span class="skip-icon skip-icon-back">&#8634;</span></button>
               <button id="play-pause" class="play-pause" aria-label="Play">&#9658;</button>
-              <button id="skip-forward" class="skip-button" aria-label="Forward 5 in-game seconds">&#8635;5</button>
+              <button id="skip-forward" class="skip-button" aria-label="Forward 5 in-game seconds"><span class="skip-icon skip-icon-forward">&#8635;</span></button>
               <button id="speed-toggle" class="speed-button" aria-label="Playback speed" data-speed="1">1x</button>
               <span id="time-elapsed" class="time">0:00</span>
               <input id="scrubber" type="range" min="0" max="100" value="0" step="0.1" />
