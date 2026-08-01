@@ -190,9 +190,7 @@
       "text": "To Wood",
       "icons": [
         {
-          "icon": "wood",
-          "label": "3",
-          "label_position": "before"
+          "icon": "wood"
         }
       ],
       "economy": {
@@ -202,15 +200,6 @@
     },
     {
       "time": 450,
-      "text": "To Wood",
-      "mute": true,
-      "economy": {
-        "food": 15,
-        "wood": 6
-      }
-    },
-    {
-      "time": 475,
       "text": "Research Loom",
       "icons": [
         {
@@ -219,12 +208,12 @@
       ],
       "economy": {
         "food": 15,
-        "wood": 7
+        "wood": 5
       }
     },
     {
-      "time": 450,
-      "text": "Click to Feudal.",
+      "time": 475,
+      "text": "Click to Feudal",
       "icons": [
         {
           "icon": "feudal_age"
@@ -232,15 +221,15 @@
       ],
       "economy": {
         "food": 15,
-        "wood": 7
+        "wood": 5
       }
     },
     {
       "time": 515,
-      "text": "11 on wood.",
+      "text": "10 on wood",
       "economy": {
-        "food": 11,
-        "wood": 11
+        "food": 10,
+        "wood": 10
       }
     },
     {
@@ -256,8 +245,8 @@
         }
       ],
       "economy": {
-        "food": 11,
-        "wood": 11
+        "food": 10,
+        "wood": 10
       }
     },
     {
@@ -271,8 +260,8 @@
         }
       ],
       "economy": {
-        "food": 4,
-        "wood": 11,
+        "food": 3,
+        "wood": 10,
         "gold": 7
       }
     },
@@ -291,7 +280,7 @@
       ],
       "economy": {
         "food": 9,
-        "wood": 11,
+        "wood": 10,
         "gold": 7
       }
     },
@@ -305,7 +294,7 @@
       ],
       "economy": {
         "food": 9,
-        "wood": 11,
+        "wood": 10,
         "gold": 7
       }
     }
