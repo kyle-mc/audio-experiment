@@ -1,0 +1,156 @@
+{
+  "id": "scout_rush",
+  "title": "Scout Rush",
+  "cover_art": null,
+  "game_speed": 1.7,
+  "steps": [
+    {
+      "time": 0,
+      "text": "Scout rush"
+    },
+    {
+      "time": 25,
+      "text": "Villager 4 to Sheep"
+    },
+    {
+      "time": 50,
+      "text": "Villager 5 to Sheep"
+    },
+    {
+      "time": 75,
+      "text": "Villager 6 to Sheep"
+    },
+    {
+      "time": 100,
+      "text": "Villager 7 to Wood"
+    },
+    {
+      "time": 125,
+      "text": "Villager 8 to Wood"
+    },
+    {
+      "time": 150,
+      "text": "Villager 9 to Boar"
+    },
+    {
+      "time": 175,
+      "text": "Villager 10 to Boar"
+    },
+    {
+      "time": 200,
+      "text": "Villager 11 to Boar"
+    },
+    {
+      "time": 225,
+      "text": "Villager 12 to Boar"
+    },
+    {
+      "time": 250,
+      "text": "Villager 13 to House and Berries"
+    },
+    {
+      "time": 275,
+      "text": "Villager 14 to Berries"
+    },
+    {
+      "time": 300,
+      "text": "Villager 15 to Berries"
+    },
+    {
+      "time": 325,
+      "text": "Villager 16 to Berries"
+    },
+    {
+      "time": 350,
+      "text": "Villager 17 to Boar"
+    },
+    {
+      "time": 375,
+      "text": "Villager 18 to Boar"
+    },
+    {
+      "time": 400,
+      "text": "Villager 19 to Wood"
+    },
+    {
+      "time": 425,
+      "text": "Research Loom"
+    },
+    {
+      "time": 450,
+      "text": "Click to Feudal. 9 on wood. 10 on food."
+    },
+    {
+      "time": 555,
+      "text": "Build a Stable. Research techs. Build farms."
+    },
+    {
+      "time": 580,
+      "text": "Villager 20 to Straggler Trees"
+    },
+    {
+      "time": 605,
+      "text": "Villager 21 to Farms"
+    },
+    {
+      "time": 630,
+      "text": "Villager 22 to Farms"
+    },
+    {
+      "time": 655,
+      "text": "Villager 23 to Farms"
+    },
+    {
+      "time": 680,
+      "text": "Villager 24 to Farms"
+    },
+    {
+      "time": 705,
+      "text": "Villager 25 to Farms"
+    },
+    {
+      "time": 730,
+      "text": "Villager 26 to Farms"
+    },
+    {
+      "time": 755,
+      "text": "Villager 27 to Farms"
+    },
+    {
+      "time": 780,
+      "text": "Villager 28 to Gold"
+    },
+    {
+      "time": 805,
+      "text": "Villager 29 to Gold"
+    },
+    {
+      "time": 830,
+      "text": "Villager 30 to Gold"
+    },
+    {
+      "time": 855,
+      "text": "Villager 31 to Farms"
+    },
+    {
+      "time": 880,
+      "text": "Villager 32 to Farms. Build a blacksmith."
+    },
+    {
+      "time": 905,
+      "text": "Villager 33 to Farms"
+    },
+    {
+      "time": 930,
+      "text": "Villager 34 to Farms"
+    },
+    {
+      "time": 955,
+      "text": "Villager 35 to Farms"
+    },
+    {
+      "time": 980,
+      "text": "Villager 36 to Farms"
+    }
+  ]
+}

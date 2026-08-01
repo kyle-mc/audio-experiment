@@ -1,0 +1,112 @@
+{
+  "id": "two_range_archers",
+  "title": "Two Range Archers",
+  "cover_art": null,
+  "game_speed": 1.7,
+  "steps": [
+    {
+      "time": 0,
+      "text": "Two Range Archers"
+    },
+    {
+      "time": 25,
+      "text": "To Sheep"
+    },
+    {
+      "time": 50,
+      "text": "To Sheep"
+    },
+    {
+      "time": 75,
+      "text": "To Sheep"
+    },
+    {
+      "time": 100,
+      "text": "To Wood"
+    },
+    {
+      "time": 125,
+      "text": "To Wood"
+    },
+    {
+      "time": 150,
+      "text": "To Wood"
+    },
+    {
+      "time": 175,
+      "text": "To Wood"
+    },
+    {
+      "time": 200,
+      "text": "Villager 11 takes Boar"
+    },
+    {
+      "time": 225,
+      "text": "Two houses, then Berries"
+    },
+    {
+      "time": 250,
+      "text": "To Food"
+    },
+    {
+      "time": 275,
+      "text": "To Food"
+    },
+    {
+      "time": 300,
+      "text": "To Food"
+    },
+    {
+      "time": 325,
+      "text": "To Food"
+    },
+    {
+      "time": 350,
+      "text": "To Food"
+    },
+    {
+      "time": 375,
+      "text": "To Food"
+    },
+    {
+      "time": 400,
+      "text": "To Food"
+    },
+    {
+      "time": 425,
+      "text": "To Wood"
+    },
+    {
+      "time": 450,
+      "text": "To Wood. 19 plus loom"
+    },
+    {
+      "time": 475,
+      "text": "To Wood. Loom researching."
+    },
+    {
+      "time": 500,
+      "text": "Click to Feudal Age"
+    },
+    {
+      "time": 515,
+      "text": "11 on wood."
+    },
+    {
+      "time": 630,
+      "text": "Research DB Axe. Build Two Ranges."
+    },
+    {
+      "time": 650,
+      "text": "Mining camp. 7 to gold."
+    },
+    {
+      "time": 670,
+      "text": "Blacksmith at 9 on food."
+    },
+    {
+      "time": 690,
+      "text": "Fletching before moving out."
+    }
+  ]
+}

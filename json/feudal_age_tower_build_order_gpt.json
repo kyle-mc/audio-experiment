@@ -1,0 +1,84 @@
+{
+  "id": "feudal_age_tower_build_order_gpt",
+  "title": "Feudal Age Tower Rush",
+  "cover_art": null,
+  "game_speed": 1.7,
+  "steps": [
+    {
+      "time": 0,
+      "text": "Tower Rush"
+    },
+    {
+      "time": 25,
+      "text": "Villager 4 to Sheep"
+    },
+    {
+      "time": 50,
+      "text": "Villager 5 to Sheep"
+    },
+    {
+      "time": 75,
+      "text": "Villager 6 to Sheep"
+    },
+    {
+      "time": 100,
+      "text": "Villager 7 to Wood"
+    },
+    {
+      "time": 125,
+      "text": "Villager 8 to Wood"
+    },
+    {
+      "time": 150,
+      "text": "Villager 9 to Boar"
+    },
+    {
+      "time": 175,
+      "text": "Villager 10 to Boar"
+    },
+    {
+      "time": 200,
+      "text": "Villager 11 to Berries"
+    },
+    {
+      "time": 225,
+      "text": "Villager 12 to Berries"
+    },
+    {
+      "time": 250,
+      "text": "Villager 13 to Sheep"
+    },
+    {
+      "time": 275,
+      "text": "Villager 14 to Sheep"
+    },
+    {
+      "time": 300,
+      "text": "Villager 15 to Sheep"
+    },
+    {
+      "time": 325,
+      "text": "Villager 16 to Sheep"
+    },
+    {
+      "time": 350,
+      "text": "Villager 17 to Sheep"
+    },
+    {
+      "time": 375,
+      "text": "Research Loom"
+    },
+    {
+      "time": 400,
+      "text": "Click to Feudal Age"
+    },
+    {
+      "time": 500,
+      "text": "Send 4 villagers from food to build towers"
+    },
+    {
+      "time": 510,
+      "text": "Send 4 villagers from food to stone"
+    }
+  ]
+}

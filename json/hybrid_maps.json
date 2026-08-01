@@ -1,0 +1,116 @@
+{
+  "id": "hybrid_maps",
+  "title": "Hybrid Maps",
+  "cover_art": "hybrid_maps.png",
+  "game_speed": 1.7,
+  "steps": [
+    {
+      "time": 0,
+      "text": "Hybrid Maps"
+    },
+    {
+      "time": 6,
+      "text": "20 vils plus loom"
+    },
+    {
+      "time": 12,
+      "text": "3 fishing ships"
+    },
+    {
+      "time": 25,
+      "text": "To Sheep"
+    },
+    {
+      "time": 50,
+      "text": "To Sheep"
+    },
+    {
+      "time": 75,
+      "text": "To Sheep. Rally on wood."
+    },
+    {
+      "time": 100,
+      "text": "To Wood"
+    },
+    {
+      "time": 125,
+      "text": "To Wood"
+    },
+    {
+      "time": 150,
+      "text": "To Wood"
+    },
+    {
+      "time": 175,
+      "text": "To Wood. Rally on fish."
+    },
+    {
+      "time": 200,
+      "text": "Villager 11 build Dock. Rally on wood."
+    },
+    {
+      "time": 215,
+      "text": "Build 3 fishing ships"
+    },
+    {
+      "time": 225,
+      "text": "To Wood."
+    },
+    {
+      "time": 233,
+      "text": "Build 3 fishing ships"
+    },
+    {
+      "time": 250,
+      "text": "To Wood"
+    },
+    {
+      "time": 275,
+      "text": "To Wood. Rally on food."
+    },
+    {
+      "time": 300,
+      "text": "To Food"
+    },
+    {
+      "time": 325,
+      "text": "To Food"
+    },
+    {
+      "time": 350,
+      "text": "To Food"
+    },
+    {
+      "time": 375,
+      "text": "To Food"
+    },
+    {
+      "time": 400,
+      "text": "To Food. Queue loom."
+    },
+    {
+      "time": 425,
+      "text": "Villager 20 to Food. Research Loom."
+    },
+    {
+      "time": 435,
+      "text": "Send vil to build second dock."
+    },
+    {
+      "time": 450,
+      "text": "Click Feudal Age"
+    },
+    {
+      "time": 457,
+      "text": "13 on wood. 4 to gold."
+    },
+    {
+      "time": 467,
+      "text": "Fishing ships provide food. Nothing under TC."
+    },
+    {
+      "time": 580,
+      "text": "Research Double Bit Axe. Build two fire ships"
+    }
+  ]
+}

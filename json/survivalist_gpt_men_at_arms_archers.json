@@ -1,0 +1,132 @@
+{
+  "id": "survivalist_gpt_men_at_arms_archers",
+  "title": "Men-at-Arms Archers (Survivalist)",
+  "cover_art": null,
+  "game_speed": 1.7,
+  "steps": [
+    {
+      "time": 0,
+      "text": "Men-at-Arms Archers"
+    },
+    {
+      "time": 25,
+      "text": "Villager 4 to Sheep"
+    },
+    {
+      "time": 50,
+      "text": "Villager 5 to Sheep"
+    },
+    {
+      "time": 75,
+      "text": "Villager 6 to Sheep"
+    },
+    {
+      "time": 100,
+      "text": "Villager 7 to Wood"
+    },
+    {
+      "time": 125,
+      "text": "Villager 8 to Wood"
+    },
+    {
+      "time": 150,
+      "text": "Villager 9 to Wood"
+    },
+    {
+      "time": 175,
+      "text": "Villager 10 to Wood"
+    },
+    {
+      "time": 200,
+      "text": "Villager 11 to Boar"
+    },
+    {
+      "time": 225,
+      "text": "Villager 12 to Build two houses, then Berries"
+    },
+    {
+      "time": 250,
+      "text": "Villager 13 to Berries"
+    },
+    {
+      "time": 275,
+      "text": "Villager 14 to Berries"
+    },
+    {
+      "time": 300,
+      "text": "Villager 15 to Berries"
+    },
+    {
+      "time": 325,
+      "text": "Villager 16 to Berries"
+    },
+    {
+      "time": 350,
+      "text": "Villager 17 to Berries"
+    },
+    {
+      "time": 375,
+      "text": "Villager 18 to Build Barracks"
+    },
+    {
+      "time": 400,
+      "text": "Villager 19 to Gold"
+    },
+    {
+      "time": 425,
+      "text": "Villager 20 to Gold"
+    },
+    {
+      "time": 450,
+      "text": "Villager 21 to Farms"
+    },
+    {
+      "time": 475,
+      "text": "Research Loom"
+    },
+    {
+      "time": 500,
+      "text": "Click to Feudal"
+    },
+    {
+      "time": 630,
+      "text": "Research Men-at-Arms upgrade"
+    },
+    {
+      "time": 655,
+      "text": "Research Double Bit Axe"
+    },
+    {
+      "time": 680,
+      "text": "Villager 22 to Farms"
+    },
+    {
+      "time": 705,
+      "text": "Build two Farms"
+    },
+    {
+      "time": 730,
+      "text": "Build Blacksmith"
+    },
+    {
+      "time": 755,
+      "text": "Research Fletching"
+    },
+    {
+      "time": 780,
+      "text": "Build Archery Range"
+    },
+    {
+      "time": 805,
+      "text": "Villager 23 to Wood"
+    },
+    {
+      "time": 830,
+      "text": "Build Market"
+    },
+    {
+      "time": 855,
+      "text": "Click to Castle"
+    }
+  ]
+}

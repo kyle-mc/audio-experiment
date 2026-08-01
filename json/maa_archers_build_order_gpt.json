@@ -1,0 +1,92 @@
+{
+  "id": "maa_archers_build_order_gpt",
+  "title": "Men-at-Arms Archers",
+  "cover_art": null,
+  "game_speed": 1.7,
+  "steps": [
+    {
+      "time": 0,
+      "text": "Feudal Age Build"
+    },
+    {
+      "time": 25,
+      "text": "Villager 4 to Sheep"
+    },
+    {
+      "time": 50,
+      "text": "Villager 5 to Sheep"
+    },
+    {
+      "time": 75,
+      "text": "Villager 6 to Sheep"
+    },
+    {
+      "time": 100,
+      "text": "Villager 7 to Wood"
+    },
+    {
+      "time": 125,
+      "text": "Villager 8 to Wood"
+    },
+    {
+      "time": 150,
+      "text": "Villager 9 to Wood"
+    },
+    {
+      "time": 175,
+      "text": "Villager 10 to Wood"
+    },
+    {
+      "time": 200,
+      "text": "Villager 11 to Boar"
+    },
+    {
+      "time": 225,
+      "text": "Villager 12 to Build two houses, then Berries"
+    },
+    {
+      "time": 250,
+      "text": "Villager 13 to Berries"
+    },
+    {
+      "time": 275,
+      "text": "Villager 14 to Berries"
+    },
+    {
+      "time": 300,
+      "text": "Villager 15 to Berries"
+    },
+    {
+      "time": 325,
+      "text": "Villager 16 to Berries"
+    },
+    {
+      "time": 350,
+      "text": "Villager 17 to Boar"
+    },
+    {
+      "time": 375,
+      "text": "Villager 18 to Boar"
+    },
+    {
+      "time": 400,
+      "text": "Villager 19 to Build Barracks, then Wood"
+    },
+    {
+      "time": 425,
+      "text": "Villager 21 to Gold"
+    },
+    {
+      "time": 450,
+      "text": "Villager 22 to Gold"
+    },
+    {
+      "time": 475,
+      "text": "Research Loom"
+    },
+    {
+      "time": 500,
+      "text": "Click to Feudal Age"
+    }
+  ]
+}

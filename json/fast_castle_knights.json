@@ -1,0 +1,132 @@
+{
+  "id": "fast_castle_knights",
+  "title": "Fast Castle Knights",
+  "cover_art": null,
+  "game_speed": 1.7,
+  "steps": [
+    {
+      "time": 0,
+      "text": "Fast castle knights"
+    },
+    {
+      "time": 25,
+      "text": "Villager 4 to Sheep"
+    },
+    {
+      "time": 50,
+      "text": "Villager 5 to Sheep"
+    },
+    {
+      "time": 75,
+      "text": "Villager 6 to Sheep"
+    },
+    {
+      "time": 100,
+      "text": "Villager 7 to Wood"
+    },
+    {
+      "time": 125,
+      "text": "Villager 8 to Wood"
+    },
+    {
+      "time": 150,
+      "text": "Villager 9 to Wood"
+    },
+    {
+      "time": 175,
+      "text": "Villager 10 to Wood"
+    },
+    {
+      "time": 200,
+      "text": "Villager 11 to Boar"
+    },
+    {
+      "time": 225,
+      "text": "Villager 12 to Build two houses, then Berries"
+    },
+    {
+      "time": 250,
+      "text": "Villager 13 to Berries"
+    },
+    {
+      "time": 275,
+      "text": "Villager 14 to Berries"
+    },
+    {
+      "time": 300,
+      "text": "Villager 15 to Berries"
+    },
+    {
+      "time": 325,
+      "text": "Villager 16 to Berries"
+    },
+    {
+      "time": 350,
+      "text": "Villager 17 to Farms"
+    },
+    {
+      "time": 375,
+      "text": "Villager 18 to Farms"
+    },
+    {
+      "time": 400,
+      "text": "Villager 19 to Lumber camp and wood"
+    },
+    {
+      "time": 425,
+      "text": "Villager 20 to Wood"
+    },
+    {
+      "time": 450,
+      "text": "Villager 21 to Wood"
+    },
+    {
+      "time": 475,
+      "text": "Villager 22 to Build house, then Wood"
+    },
+    {
+      "time": 500,
+      "text": "Villager 23 to Wood"
+    },
+    {
+      "time": 525,
+      "text": "Villager 24 to Wood"
+    },
+    {
+      "time": 550,
+      "text": "Villager 25 to Gold"
+    },
+    {
+      "time": 575,
+      "text": "Villager 26 to Gold"
+    },
+    {
+      "time": 600,
+      "text": "Villager 27 to Gold"
+    },
+    {
+      "time": 625,
+      "text": "Click to Feudal"
+    },
+    {
+      "time": 675,
+      "text": "Build a Barracks"
+    },
+    {
+      "time": 755,
+      "text": "Build a Stable and build a Blacksmith"
+    },
+    {
+      "time": 780,
+      "text": "Villager 28 to Gold"
+    },
+    {
+      "time": 805,
+      "text": "Villager 29 to Gold"
+    },
+    {
+      "time": 830,
+      "text": "Click to Castle"
+    }
+  ]
+}
