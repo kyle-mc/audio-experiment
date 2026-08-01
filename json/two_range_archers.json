@@ -6,107 +6,308 @@
   "steps": [
     {
       "time": 0,
-      "text": "Two Range Archers"
+      "text": "Two Range Archers",
+      "economy": {
+        "food": 3
+      }
     },
     {
       "time": 25,
-      "text": "To Sheep"
+      "text": "To Sheep",
+      "icons": [
+        {
+          "icon": "sheep",
+          "label": "6",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 4
+      }
     },
     {
       "time": 50,
-      "text": "To Sheep"
+      "text": "To Sheep",
+      "mute": true,
+      "economy": {
+        "food": 5
+      }
     },
     {
       "time": 75,
-      "text": "To Sheep"
+      "text": "To Sheep",
+      "mute": true,
+      "economy": {
+        "food": 6
+      }
     },
     {
       "time": 100,
-      "text": "To Wood"
+      "text": "To Wood",
+      "icons": [
+        {
+          "icon": "wood",
+          "label": "4",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 6,
+        "wood": 1
+      }
     },
     {
       "time": 125,
-      "text": "To Wood"
+      "text": "To Wood",
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 2
+      }
     },
     {
       "time": 150,
-      "text": "To Wood"
+      "text": "To Wood",
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 3
+      }
     },
     {
       "time": 175,
-      "text": "To Wood"
+      "text": "To Wood",
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 4
+      }
     },
     {
       "time": 200,
-      "text": "Villager 11 takes Boar"
+      "text": "Villager 11 takes Boar",
+      "icons": [
+        {
+          "icon": "boar",
+          "label": "1",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 7,
+        "wood": 4
+      }
     },
     {
       "time": 225,
-      "text": "Two houses, then Berries"
+      "text": "Two houses, then Berries",
+      "icons": [
+        {
+          "icon": "house"
+        },
+        {
+          "icon": "berries",
+          "label": "1",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 8,
+        "wood": 4
+      }
     },
     {
       "time": 250,
-      "text": "To Food"
+      "text": "To Food",
+      "icons": [
+        {
+          "icon": "food",
+          "label": "7",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 9,
+        "wood": 4
+      }
     },
     {
       "time": 275,
-      "text": "To Food"
+      "text": "To Food",
+      "mute": true,
+      "economy": {
+        "food": 10,
+        "wood": 4
+      }
     },
     {
       "time": 300,
-      "text": "To Food"
+      "text": "To Food",
+      "mute": true,
+      "economy": {
+        "food": 11,
+        "wood": 4
+      }
     },
     {
       "time": 325,
-      "text": "To Food"
+      "text": "To Food",
+      "mute": true,
+      "economy": {
+        "food": 12,
+        "wood": 4
+      }
     },
     {
       "time": 350,
-      "text": "To Food"
+      "text": "To Food",
+      "mute": true,
+      "economy": {
+        "food": 13,
+        "wood": 4
+      }
     },
     {
       "time": 375,
-      "text": "To Food"
+      "text": "To Food",
+      "mute": true,
+      "economy": {
+        "food": 14,
+        "wood": 4
+      }
     },
     {
       "time": 400,
-      "text": "To Food"
+      "text": "To Food",
+      "mute": true,
+      "economy": {
+        "food": 15,
+        "wood": 4
+      }
     },
     {
       "time": 425,
-      "text": "To Wood"
+      "text": "To Wood",
+      "icons": [
+        {
+          "icon": "wood",
+          "label": "3",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 5
+      }
     },
     {
       "time": 450,
-      "text": "To Wood. 19 plus loom"
+      "text": "To Wood",
+      "mute": true,
+      "economy": {
+        "food": 15,
+        "wood": 6
+      }
     },
     {
       "time": 475,
-      "text": "To Wood. Loom researching."
+      "text": "Research Loom",
+      "icons": [
+        {
+          "icon": "loom"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 7
+      }
     },
     {
-      "time": 500,
-      "text": "Click to Feudal Age"
+      "time": 450,
+      "text": "Click to Feudal.",
+      "icons": [
+        {
+          "icon": "feudal_age"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 7
+      }
     },
     {
       "time": 515,
-      "text": "11 on wood."
+      "text": "11 on wood.",
+      "economy": {
+        "food": 11,
+        "wood": 11
+      }
     },
     {
       "time": 630,
-      "text": "Research DB Axe. Build Two Ranges."
+      "text": "Research DB Axe. Build Two Ranges.",
+      "icons": [
+        {
+          "icon": "double_bit_axe"
+        },
+        {
+          "icon": "archery_range",
+          "label": "x2"
+        }
+      ],
+      "economy": {
+        "food": 11,
+        "wood": 11
+      }
     },
     {
       "time": 650,
-      "text": "Mining camp. 7 to gold."
+      "text": "Mining camp. 7 to gold.",
+      "icons": [
+        {
+          "icon": "gold",
+          "label": "7",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 4,
+        "wood": 11,
+        "gold": 7
+      }
     },
     {
       "time": 670,
-      "text": "Blacksmith at 9 on food."
+      "text": "Blacksmith at 9 on food.",
+      "icons": [
+        {
+          "icon": "blacksmith"
+        },
+        {
+          "icon": "food",
+          "label": "9",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 9,
+        "wood": 11,
+        "gold": 7
+      }
     },
     {
       "time": 690,
-      "text": "Fletching before moving out."
+      "text": "Fletching before moving out.",
+      "icons": [
+        {
+          "icon": "fletching"
+        }
+      ],
+      "economy": {
+        "food": 9,
+        "wood": 11,
+        "gold": 7
+      }
     }
   ]
 }
