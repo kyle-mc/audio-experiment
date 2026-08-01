@@ -6,14 +6,14 @@
   "steps": [
     {
       "time": 0,
-      "text": "Two Range Archers",
+      "text": "Two Range Archers (Dragonstar)",
       "economy": {
         "food": 3
       }
     },
     {
       "time": 25,
-      "text": "To Sheep",
+      "text": "Villager 4 to Sheep",
       "icons": [
         {
           "icon": "sheep",
@@ -27,7 +27,7 @@
     },
     {
       "time": 50,
-      "text": "To Sheep",
+      "text": "Villager 5 to Sheep",
       "mute": true,
       "economy": {
         "food": 5
@@ -35,7 +35,7 @@
     },
     {
       "time": 75,
-      "text": "To Sheep",
+      "text": "Villager 6 to Sheep",
       "mute": true,
       "economy": {
         "food": 6
@@ -43,11 +43,11 @@
     },
     {
       "time": 100,
-      "text": "To Wood",
+      "text": "Villager 7 to Wood",
       "icons": [
         {
           "icon": "wood",
-          "label": "4",
+          "label": "3",
           "label_position": "before"
         }
       ],
@@ -58,7 +58,7 @@
     },
     {
       "time": 125,
-      "text": "To Wood",
+      "text": "Villager 8 to Wood",
       "mute": true,
       "economy": {
         "food": 6,
@@ -67,7 +67,7 @@
     },
     {
       "time": 150,
-      "text": "To Wood",
+      "text": "Villager 9 to Wood",
       "mute": true,
       "economy": {
         "food": 6,
@@ -76,152 +76,175 @@
     },
     {
       "time": 175,
-      "text": "To Wood",
-      "mute": true,
-      "economy": {
-        "food": 6,
-        "wood": 4
-      }
-    },
-    {
-      "time": 200,
-      "text": "Villager 11 takes Boar",
+      "text": "Villager 10 to Boar. Lure Deer.",
       "icons": [
         {
-          "icon": "boar",
-          "label": "1",
-          "label_position": "before"
+          "icon": "boar"
         }
       ],
       "economy": {
         "food": 7,
-        "wood": 4
+        "wood": 3
       }
+    },
+    {
+      "time": 200,
+      "text": "Villager 11 Build 2 Houses. To Berries.",
+      "economy": {
+        "food": 8,
+        "wood": 3
+      },
+      "icons": [
+        {
+          "icon": "house",
+          "label": "2",
+          "label_position": "before"
+        },
+        {
+          "icon": "berries"
+        }
+      ]
     },
     {
       "time": 225,
-      "text": "Two houses, then Berries",
-      "icons": [
+      "text": "Villager 12 to Boar",
+      "economy": {
+        "food": 9,
+        "wood": 3
+      },
+        "icons": [
         {
-          "icon": "house"
-        },
-        {
-          "icon": "berries",
-          "label": "1",
+          "icon": "boar",
+          "label": "3",
           "label_position": "before"
         }
-      ],
-      "economy": {
-        "food": 8,
-        "wood": 4
-      }
+      ]
     },
     {
       "time": 250,
-      "text": "To Food",
-      "icons": [
-        {
-          "icon": "food",
-          "label": "7",
-          "label_position": "before"
-        }
-      ],
+      "text": "Villager 13 to Boar",
+      "mute": true,
       "economy": {
-        "food": 9,
-        "wood": 4
+        "food": 10,
+        "wood": 3
       }
     },
     {
       "time": 275,
-      "text": "To Food",
+      "text": "Villager 14 to Boar",
       "mute": true,
       "economy": {
-        "food": 10,
-        "wood": 4
+        "food": 11,
+        "wood": 3
       }
     },
     {
       "time": 300,
-      "text": "To Food",
-      "mute": true,
+      "text": "Villager 15 to Berries",
       "economy": {
-        "food": 11,
-        "wood": 4
-      }
+        "food": 12,
+        "wood": 3
+      },
+      "icons": [
+        {
+          "icon": "berries",
+          "label": "3",
+          "label_position": "before"
+        }
+      ]
     },
     {
       "time": 325,
-      "text": "To Food",
+      "text": "Villager 16 to Berries",
       "mute": true,
       "economy": {
-        "food": 12,
-        "wood": 4
+        "food": 13,
+        "wood": 3
       }
     },
     {
       "time": 350,
-      "text": "To Food",
+      "text": "Villager 17 to Berries",
       "mute": true,
       "economy": {
-        "food": 13,
-        "wood": 4
+        "food": 14,
+        "wood": 3
       }
     },
     {
       "time": 375,
-      "text": "To Food",
-      "mute": true,
+      "text": "Villager 18 to Wood",
       "economy": {
         "food": 14,
         "wood": 4
-      }
+      },
+      "icons": [
+        {
+          "icon": "wood",
+          "label": "3",
+          "label_position": "before"
+        }
+      ]
     },
     {
       "time": 400,
-      "text": "To Food",
+      "text": "Villager 19 to Wood",
       "mute": true,
       "economy": {
-        "food": 15,
-        "wood": 4
+        "food": 14,
+        "wood": 5
       }
     },
     {
       "time": 425,
-      "text": "To Wood. Research Loom.",
+      "text": "Villager 20 Wood. Research Loom.",
       "icons": [
         {
           "icon": "loom"
         }
       ],
       "economy": {
-        "food": 15,
-        "wood": 5
+        "food": 14,
+        "wood": 6
       }
     },
     {
       "time": 450,
-      "text": "Click to Feudal",
+      "text": "Click to Feudal. Send 5 Villagers from food to second Wood Line.",
       "icons": [
         {
           "icon": "feudal_age"
+        },
+        {
+          "icon": "wood",
+          "label": "5",
+          "label_position": "before"
         }
       ],
       "economy": {
-        "food": 10,
-        "wood": 10
+        "food": 9,
+        "wood": 11
       }
     },
     {
-      "time": 515,
-      "text": "10 on wood",
+      "time": 470,
+      "text": "Send 3 villagers to Gold.",
+      "icons": [
+        {
+          "icon": "gold",
+          "label": "3",
+          "label_position": "before"
+        }
+      ],
       "economy": {
-        "food": 10,
-        "wood": 10
+        "food": 6,
+        "wood": 11,
+        "gold": 3
       }
     },
     {
       "time": 580,
-      "text": "Research DB Axe. Build Two Ranges.",
+      "text": "Double-Bit Axe. Build two Archery Ranges.",
       "icons": [
         {
           "icon": "double_bit_axe"
@@ -230,60 +253,92 @@
           "icon": "archery_range",
           "label": "x2"
         }
-      ],
-      "economy": {
-        "food": 10,
-        "wood": 10
-      }
+      ]
     },
     {
-      "time": 550,
-      "text": "Mining camp. 7 to gold.",
+      "time": 605,
+      "text": "Villager 21 to Gold",
       "icons": [
         {
           "icon": "gold",
-          "label": "7",
+          "label": "4",
           "label_position": "before"
         }
       ],
       "economy": {
-        "food": 3,
-        "wood": 10,
+        "food": 6,
+        "wood": 11,
+        "gold": 4
+      }
+    },
+    {
+      "time": 630,
+      "text": "Villager 22 to Gold",
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 11,
+        "gold": 5
+      }
+    },
+    {
+      "time": 655,
+      "text": "Villager 23 to Gold",
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 11,
+        "gold": 6
+      }
+    },
+    {
+      "time": 680,
+      "text": "Villager 24 to Gold",
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 11,
         "gold": 7
       }
     },
     {
-      "time": 670,
-      "text": "Blacksmith at 9 on food.",
+      "time": 705,
+      "text": "Villager 25 to Strangler Trees. Build Blacksmith",
+      "economy": {
+        "food": 7,
+        "wood": 11,
+        "gold": 7
+      },
       "icons": [
         {
           "icon": "blacksmith"
-        },
-        {
-          "icon": "food",
-          "label": "9",
-          "label_position": "before"
         }
-      ],
-      "economy": {
-        "food": 9,
-        "wood": 10,
-        "gold": 7
-      }
+      ]
     },
     {
-      "time": 690,
-      "text": "Fletching before moving out.",
+      "time": 730,
+      "text": "Villager 26 to Strangler Trees. Build Farms",
+      "economy": {
+        "food": 8,
+        "wood": 11,
+        "gold": 7
+      },
+      "icons": [
+        {
+          "icon": "farm",
+          "label": "4",
+          "label_position": "before"
+        }
+      ]
+    },
+    {
+      "time": 730,
+      "text": "Research fletching and move out",
       "icons": [
         {
           "icon": "fletching"
         }
-      ],
-      "economy": {
-        "food": 9,
-        "wood": 10,
-        "gold": 7
-      }
+      ]
     }
   ]
 }
