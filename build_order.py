@@ -1,4 +1,5 @@
 import glob
+import hashlib
 import json
 import os
 import sys
@@ -13,6 +14,9 @@ import eyed3
 JSON_DIR = "json"
 AUDIO_DIR = "audio"
 IMAGES_DIR = "images"
+MANIFEST_FILENAME = "manifest.json"
+AUDIO_VERSIONS_FILENAME = "audio_versions.json"
+RESERVED_JSON_FILENAMES = {MANIFEST_FILENAME, AUDIO_VERSIONS_FILENAME}
 
 # Seconds of silence appended after the last spoken step.
 TRAILING_BUFFER_SECONDS = 5
@@ -36,6 +40,7 @@ def save_tts(text, path):
 
 def load_build_orders(json_dir=JSON_DIR, build_id=None):
     paths = sorted(glob.glob(os.path.join(json_dir, "*.json")))
+    paths = [p for p in paths if os.path.basename(p) not in RESERVED_JSON_FILENAMES]
     if build_id:
         paths = [p for p in paths if os.path.splitext(os.path.basename(p))[0] == build_id]
         if not paths:
@@ -46,6 +51,35 @@ def load_build_orders(json_dir=JSON_DIR, build_id=None):
         with open(path, "r", encoding="utf-8") as f:
             builds.append(json.load(f))
     return builds
+
+
+def compute_audio_hash(build):
+    """Hash only the fields that actually affect the generated mp3, so
+    editing display-only fields (icons, resources, ...) doesn't flag audio
+    as stale."""
+    payload = {
+        "game_speed": build["game_speed"],
+        "steps": [
+            {"time": step["time"], "text": step["text"], "mute": bool(step.get("mute"))}
+            for step in build["steps"]
+        ],
+    }
+    encoded = json.dumps(payload, sort_keys=True).encode("utf-8")
+    return hashlib.sha256(encoded).hexdigest()[:12]
+
+
+def load_audio_versions(json_dir=JSON_DIR):
+    path = os.path.join(json_dir, AUDIO_VERSIONS_FILENAME)
+    if not os.path.isfile(path):
+        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_audio_versions(versions, json_dir=JSON_DIR):
+    path = os.path.join(json_dir, AUDIO_VERSIONS_FILENAME)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(versions, f, indent=2, sort_keys=True)
 
 
 def create_build_order(build, audio_dir=AUDIO_DIR, images_dir=IMAGES_DIR):
@@ -63,6 +97,9 @@ def create_build_order(build, audio_dir=AUDIO_DIR, images_dir=IMAGES_DIR):
 
     with tempfile.TemporaryDirectory(prefix=f"aoe2-build-{build_id}-") as tmp_dir:
         for step in steps:
+            if step.get("mute"):
+                continue
+
             tmp_path = os.path.join(tmp_dir, f"{step['time']}.mp3")
             save_tts(step["text"], tmp_path)
 
@@ -95,8 +132,36 @@ def create_build_order(build, audio_dir=AUDIO_DIR, images_dir=IMAGES_DIR):
     audiofile.tag.save(version=eyed3.id3.ID3_V2_3)
     print(f"[OK] Metadata embedded for {build_id}")
 
+    versions = load_audio_versions()
+    versions[build_id] = compute_audio_hash(build)
+    save_audio_versions(versions)
+
+
+def write_manifest(json_dir=JSON_DIR):
+    """List every build order in json/ so the website knows what's available,
+    without needing directory listing (which GitHub Pages doesn't provide)."""
+    versions = load_audio_versions(json_dir=json_dir)
+
+    manifest = []
+    for build in load_build_orders(json_dir=json_dir):
+        last_time = max(step["time"] for step in build["steps"])
+        generated_hash = versions.get(build["id"])
+        manifest.append({
+            "id": build["id"],
+            "title": build["title"],
+            "duration_in_game_seconds": last_time,
+            "audio_stale": generated_hash != compute_audio_hash(build),
+        })
+
+    manifest.sort(key=lambda b: b["title"])
+    manifest_path = os.path.join(json_dir, MANIFEST_FILENAME)
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2)
+    print(f"[OK] Manifest written to {manifest_path}")
+
 
 if __name__ == "__main__":
     requested_id = sys.argv[1] if len(sys.argv) > 1 else None
     for build in load_build_orders(build_id=requested_id):
         create_build_order(build)
+    write_manifest()

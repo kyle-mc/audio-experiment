@@ -1,0 +1,50 @@
+[
+  {
+    "id": "fast_castle_knights",
+    "title": "Fast Castle Knights",
+    "duration_in_game_seconds": 830,
+    "audio_stale": false
+  },
+  {
+    "id": "feudal_age_tower_build_order_gpt",
+    "title": "Feudal Age Tower Rush",
+    "duration_in_game_seconds": 510,
+    "audio_stale": false
+  },
+  {
+    "id": "hybrid_maps",
+    "title": "Hybrid Maps",
+    "duration_in_game_seconds": 580,
+    "audio_stale": false
+  },
+  {
+    "id": "maa_archers_build_order_gpt",
+    "title": "Men-at-Arms Archers",
+    "duration_in_game_seconds": 500,
+    "audio_stale": false
+  },
+  {
+    "id": "survivalist_gpt_men_at_arms_archers",
+    "title": "Men-at-Arms Archers (Survivalist)",
+    "duration_in_game_seconds": 855,
+    "audio_stale": false
+  },
+  {
+    "id": "one_range_archers",
+    "title": "One Range Archers",
+    "duration_in_game_seconds": 610,
+    "audio_stale": false
+  },
+  {
+    "id": "scout_rush",
+    "title": "Scout Rush",
+    "duration_in_game_seconds": 980,
+    "audio_stale": false
+  },
+  {
+    "id": "two_range_archers",
+    "title": "Two Range Archers",
+    "duration_in_game_seconds": 690,
+    "audio_stale": false
+  }
+]
