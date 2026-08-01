@@ -79,9 +79,7 @@
       "text": "Villager 10 to Boar. Lure Deer.",
       "icons": [
         {
-          "icon": "boar",
-          "label": "4",
-          "label_position": "before"
+          "icon": "boar"
         }
       ],
       "economy": {
@@ -92,7 +90,6 @@
     {
       "time": 200,
       "text": "Villager 11 Build 2 Houses. To Berries.",
-      "mute": true,
       "economy": {
         "food": 8,
         "wood": 3
@@ -104,24 +101,28 @@
           "label_position": "before"
         },
         {
-          "icon": "berries",
-          "label": "4",
-          "label_position": "before"
+          "icon": "berries"
         }
       ]
     },
     {
       "time": 225,
-      "text": "Villager 12 to Berries",
-      "mute": true,
+      "text": "Villager 12 to Boar",
       "economy": {
         "food": 9,
         "wood": 3
-      }
+      },
+        "icons": [
+        {
+          "icon": "boar",
+          "label": "3",
+          "label_position": "before"
+        }
+      ]
     },
     {
       "time": 250,
-      "text": "Villager 13 to Berries",
+      "text": "Villager 13 to Boar",
       "mute": true,
       "economy": {
         "food": 10,
@@ -130,7 +131,8 @@
     },
     {
       "time": 275,
-      "text": "Villager 14 to Berries",
+      "text": "Villager 14 to Boar",
+      "mute": true,
       "economy": {
         "food": 11,
         "wood": 3
@@ -138,22 +140,23 @@
     },
     {
       "time": 300,
-      "text": "Villager 15 to Boar",
+      "text": "Villager 15 to Berries",
       "economy": {
         "food": 12,
         "wood": 3
       },
       "icons": [
         {
-          "icon": "boar",
-          "label": "4",
+          "icon": "berries",
+          "label": "3",
           "label_position": "before"
         }
       ]
     },
     {
       "time": 325,
-      "text": "Villager 16 to Boar",
+      "text": "Villager 16 to Berries",
+      "mute": true,
       "economy": {
         "food": 13,
         "wood": 3
@@ -161,7 +164,8 @@
     },
     {
       "time": 350,
-      "text": "Villager 17 to Boar",
+      "text": "Villager 17 to Berries",
+      "mute": true,
       "economy": {
         "food": 14,
         "wood": 3
@@ -169,22 +173,23 @@
     },
     {
       "time": 375,
-      "text": "Villager 18 to Boar",
+      "text": "Villager 18 to Wood",
       "economy": {
         "food": 14,
         "wood": 4
-      }
+      },
+      "icons": [
+        {
+          "icon": "wood",
+          "label": "3",
+          "label_position": "before"
+        }
+      ]
     },
     {
       "time": 400,
       "text": "Villager 19 to Wood",
-      "icons": [
-        {
-          "icon": "wood",
-          "label": "2",
-          "label_position": "before"
-        }
-      ],
+      "mute": true,
       "economy": {
         "food": 14,
         "wood": 5
@@ -205,14 +210,14 @@
     },
     {
       "time": 450,
-      "text": "Click to Feudal. Build a Mining Camp. Send 5 to a second Wood line.",
+      "text": "Click to Feudal. Send 5 Villagers from food to second Wood Line.",
       "icons": [
         {
           "icon": "feudal_age"
         },
         {
-          "icon": "gold",
-          "label": "3",
+          "icon": "wood",
+          "label": "5",
           "label_position": "before"
         }
       ],
@@ -269,6 +274,7 @@
     {
       "time": 630,
       "text": "Villager 22 to Gold",
+      "mute": true,
       "economy": {
         "food": 6,
         "wood": 11,
@@ -278,6 +284,7 @@
     {
       "time": 655,
       "text": "Villager 23 to Gold",
+      "mute": true,
       "economy": {
         "food": 6,
         "wood": 11,
@@ -287,6 +294,7 @@
     {
       "time": 680,
       "text": "Villager 24 to Gold",
+      "mute": true,
       "economy": {
         "food": 6,
         "wood": 11,
