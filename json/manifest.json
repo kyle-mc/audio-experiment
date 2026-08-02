@@ -44,15 +44,15 @@
   {
     "id": "scout_rush",
     "title": "Scout Rush",
-    "duration_in_game_seconds": 1680,
-    "audio_generated_at": "2026-08-01T22:55:07Z",
+    "duration_in_game_seconds": 1655,
+    "audio_generated_at": "2026-08-02T03:07:17Z",
     "approved": false
   },
   {
     "id": "two_range_archers",
     "title": "Two Range Archers",
     "duration_in_game_seconds": 845,
-    "audio_generated_at": "2026-08-02T02:57:20Z",
+    "audio_generated_at": "2026-08-02T03:07:23Z",
     "approved": true
   }
 ]

@@ -339,7 +339,7 @@
     },
     {
       "time": 705,
-      "text": "Villager 25 to Strangler Trees. Build Blacksmith",
+      "text": "Villager 25 to Straggler Trees. Build Blacksmith",
       "economy": {
         "food": 7,
         "wood": 11,
@@ -353,7 +353,7 @@
     },
     {
       "time": 730,
-      "text": "Villager 26 to Strangler Trees. Build Farms",
+      "text": "Villager 26 to Straggler Trees. Build Farms",
       "economy": {
         "food": 8,
         "wood": 11,
@@ -369,7 +369,7 @@
     },
     {
       "time": 755,
-      "text": "Villager 27 to Strangler Trees. Build Farms",
+      "text": "Villager 27 to Straggler Trees. Build Farms",
       "mute": true,
       "economy": {
         "food": 9,
@@ -379,7 +379,7 @@
     },
     {
       "time": 820,
-      "text": "Villager 27 to Strangler Trees. Build Farms",
+      "text": "Villager 27 to Straggler Trees. Build Farms",
       "mute": true,
       "economy": {
         "food": 9,
