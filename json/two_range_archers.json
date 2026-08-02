@@ -78,7 +78,7 @@
       "time": 175,
       "text": "Villager 10 Build 2 Houses. To Berries.",
       "economy": {
-        "food": 8,
+        "food": 7,
         "wood": 3
       },
       "icons": [
@@ -103,7 +103,7 @@
         }
       ],
       "economy": {
-        "food": 7,
+        "food": 8,
         "wood": 3
       }
     },
