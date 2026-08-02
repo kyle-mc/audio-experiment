@@ -21,11 +21,13 @@
     },
     {
       "time": 50,
-      "text": "Villager 5 to Sheep"
+      "text": "Villager 5 to Sheep",
+      "mute": true
     },
     {
       "time": 75,
-      "text": "Villager 6 to Sheep"
+      "text": "Villager 6 to Sheep",
+      "mute": true
     },
     {
       "time": 100,
@@ -40,15 +42,18 @@
     },
     {
       "time": 125,
-      "text": "Villager 8 to Wood"
+      "text": "Villager 8 to Wood",
+      "mute": true
     },
     {
       "time": 150,
-      "text": "Villager 9 to Wood"
+      "text": "Villager 9 to Wood",
+      "mute": true
     },
     {
       "time": 175,
-      "text": "Villager 10 to Wood"
+      "text": "Villager 10 to Wood",
+      "mute": true
     },
     {
       "time": 200,
@@ -90,19 +95,23 @@
     },
     {
       "time": 300,
-      "text": "Villager 15 to Food"
+      "text": "Villager 15 to Food",
+      "mute": true
     },
     {
       "time": 325,
-      "text": "Villager 16 to Food"
+      "text": "Villager 16 to Food",
+      "mute": true
     },
     {
       "time": 350,
-      "text": "Villager 17 to Food"
+      "text": "Villager 17 to Food",
+      "mute": true
     },
     {
       "time": 375,
-      "text": "Villager 18 to Food"
+      "text": "Villager 18 to Food",
+      "mute": true
     },
     {
       "time": 400,
@@ -117,23 +126,28 @@
     },
     {
       "time": 425,
-      "text": "Villager 20 to Wood"
+      "text": "Villager 20 to Wood",
+      "mute": true
     },
     {
       "time": 450,
-      "text": "Villager 21 to Wood"
+      "text": "Villager 21 to Wood",
+      "mute": true
     },
     {
       "time": 475,
-      "text": "Villager 22 to Wood"
+      "text": "Villager 22 to Wood",
+      "mute": true
     },
     {
       "time": 500,
-      "text": "Villager 23 to Wood"
+      "text": "Villager 23 to Wood",
+      "mute": true
     },
     {
       "time": 525,
-      "text": "Villager 24 to Wood"
+      "text": "Villager 24 to Wood",
+      "mute": true
     },
     {
       "time": 550,
