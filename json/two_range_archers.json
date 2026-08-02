@@ -215,8 +215,8 @@
         }
       ],
       "economy": {
-        "food": 9,
-        "wood": 11
+        "food": 14,
+        "wood": 6
       }
     },
     {
@@ -363,7 +363,27 @@
       ]
     },
     {
-      "time": 840,
+      "time": 755,
+      "text": "Villager 27 to Strangler Trees. Build Farms",
+      "mute": true,
+      "economy": {
+        "food": 9,
+        "wood": 11,
+        "gold": 7
+      }
+    },
+    {
+      "time": 820,
+      "text": "Villager 27 to Strangler Trees. Build Farms",
+      "mute": true,
+      "economy": {
+        "food": 9,
+        "wood": 11,
+        "gold": 7
+      }
+    },
+    {
+      "time": 845,
       "text": "Research fletching and move out",
       "icons": [
         {
