@@ -3,6 +3,7 @@
   "title": "Fast Castle Unique Unit",
   "cover_art": null,
   "game_speed": 1.7,
+  "approved": true,
   "steps": [
     {
       "time": 0,

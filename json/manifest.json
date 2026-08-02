@@ -11,14 +11,14 @@
     "title": "Fast Castle Knights",
     "duration_in_game_seconds": 830,
     "audio_generated_at": "2026-08-01T22:54:37Z",
-    "approved": false
+    "approved": true
   },
   {
     "id": "fast_castle_unique_unit",
     "title": "Fast Castle Unique Unit",
     "duration_in_game_seconds": 1060,
     "audio_generated_at": "2026-08-02T20:21:18Z",
-    "approved": false
+    "approved": true
   },
   {
     "id": "feudal_age_tower_build_order_gpt",
@@ -32,14 +32,14 @@
     "title": "Hybrid 2 Range Archers",
     "duration_in_game_seconds": 1355,
     "audio_generated_at": "2026-08-02T19:34:33Z",
-    "approved": false
+    "approved": true
   },
   {
     "id": "hybrid_scouts_knights",
     "title": "Hybrid Scouts into Knights",
     "duration_in_game_seconds": 1010,
     "audio_generated_at": "2026-08-02T19:52:08Z",
-    "approved": false
+    "approved": true
   },
   {
     "id": "maa_archers_build_order_gpt",
