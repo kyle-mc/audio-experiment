@@ -76,20 +76,7 @@
     },
     {
       "time": 175,
-      "text": "Villager 10 to Boar. Lure Deer.",
-      "icons": [
-        {
-          "icon": "boar"
-        }
-      ],
-      "economy": {
-        "food": 7,
-        "wood": 3
-      }
-    },
-    {
-      "time": 200,
-      "text": "Villager 11 Build 2 Houses. To Berries.",
+      "text": "Villager 10 Build 2 Houses. To Berries.",
       "economy": {
         "food": 8,
         "wood": 3
@@ -106,19 +93,27 @@
       ]
     },
     {
+      "time": 200,
+      "text": "Villager 11 to Boar. Lure Deer.",
+      "icons": [
+        {
+          "icon": "boar",
+          "label": "4",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 7,
+        "wood": 3
+      }
+    },
+    {
       "time": 225,
       "text": "Villager 12 to Boar",
       "economy": {
         "food": 9,
         "wood": 3
-      },
-        "icons": [
-        {
-          "icon": "boar",
-          "label": "3",
-          "label_position": "before"
-        }
-      ]
+      }
     },
     {
       "time": 250,
