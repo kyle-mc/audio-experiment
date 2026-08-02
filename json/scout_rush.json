@@ -67,7 +67,7 @@
     },
     {
       "time": 150,
-      "text": "Villager 9 to Boar",
+      "text": "Villager 9 to Lure Boar",
       "icons": [
         {
           "icon": "boar",
@@ -91,44 +91,51 @@
     },
     {
       "time": 200,
-      "text": "Villager 11 to Boar",
-      "mute": true,
+      "text": "Villager 11 to Build House and Mill",
+      "icons": [
+        {
+          "icon": "house"
+        },
+        {
+          "icon": "mill"
+        }
+      ],
       "economy": {
-        "food": 9,
-        "wood": 2
+        "food": 8,
+        "wood": 2,
+        "builder": 1
       }
     },
     {
       "time": 225,
       "text": "Villager 12 to Boar",
-      "mute": true,
       "economy": {
-        "food": 10,
-        "wood": 2
+        "food": 9,
+        "wood": 2,
+        "builder": 1
       }
     },
     {
       "time": 250,
-      "text": "Villager 13 to House and Berries",
+      "text": "Villager 13 to Boar",
+      "mute": true,
+      "economy": {
+        "food": 11,
+        "wood": 2
+      }
+    },
+    
+    {
+      "time": 275,
+      "text": "Villager 14 to Berries",
+      "mute": true,
       "icons": [
-        {
-          "icon": "house"
-        },
         {
           "icon": "berries",
           "label": "4",
           "label_position": "before"
         }
       ],
-      "economy": {
-        "food": 11,
-        "wood": 2
-      }
-    },
-    {
-      "time": 275,
-      "text": "Villager 14 to Berries",
-      "mute": true,
       "economy": {
         "food": 12,
         "wood": 2
