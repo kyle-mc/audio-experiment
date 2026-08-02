@@ -1,0 +1,368 @@
+{
+  "id": "fast_castle_unique_unit",
+  "title": "Fast Castle Unique Unit",
+  "cover_art": null,
+  "game_speed": 1.7,
+  "steps": [
+    {
+      "time": 0,
+      "text": "Fast Castle Unique Unit",
+      "economy": {
+        "food": 3
+      }
+    },
+    {
+      "time": 25,
+      "text": "Villager 4 to Food",
+      "icons": [
+        {
+          "icon": "sheep",
+          "label": "6",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 4
+      }
+    },
+    {
+      "time": 50,
+      "text": "Villager 5 to Food",
+      "mute": true,
+      "economy": {
+        "food": 5
+      }
+    },
+    {
+      "time": 75,
+      "text": "Villager 6 to Food",
+      "mute": true,
+      "economy": {
+        "food": 6
+      }
+    },
+    {
+      "time": 100,
+      "text": "Villager 7 to Wood",
+      "icons": [
+        {
+          "icon": "wood",
+          "label": "4",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 6,
+        "wood": 1
+      }
+    },
+    {
+      "time": 125,
+      "text": "Villager 8 to Wood",
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 2
+      }
+    },
+    {
+      "time": 150,
+      "text": "Villager 9 to Wood",
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 3
+      }
+    },
+    {
+      "time": 175,
+      "text": "Villager 10 to Wood",
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 4
+      }
+    },
+    {
+      "time": 200,
+      "text": "Villager 11 lures Boar",
+      "icons": [
+        {
+          "icon": "boar"
+        }
+      ],
+      "economy": {
+        "food": 7,
+        "wood": 4
+      }
+    },
+    {
+      "time": 225,
+      "text": "Villager 12 builds 3 Houses and a Mill",
+      "icons": [
+        {
+          "icon": "house",
+          "label": "3",
+          "label_position": "before"
+        },
+        {
+          "icon": "mill"
+        }
+      ],
+      "economy": {
+        "food": 7,
+        "wood": 4,
+        "builder": 1
+      }
+    },
+    {
+      "time": 250,
+      "text": "Villager 13 to Food",
+      "economy": {
+        "food": 9,
+        "wood": 4
+      }
+    },
+    {
+      "time": 275,
+      "text": "Villager 14 to Food",
+      "mute": true,
+      "economy": {
+        "food": 10,
+        "wood": 4
+      }
+    },
+    {
+      "time": 300,
+      "text": "Villager 15 to Food",
+      "mute": true,
+      "economy": {
+        "food": 11,
+        "wood": 4
+      }
+    },
+    {
+      "time": 325,
+      "text": "Villager 16 to Food",
+      "mute": true,
+      "economy": {
+        "food": 12,
+        "wood": 4
+      }
+    },
+    {
+      "time": 350,
+      "text": "Villager 17 to Food",
+      "mute": true,
+      "economy": {
+        "food": 13,
+        "wood": 4
+      }
+    },
+    {
+      "time": 375,
+      "text": "Villager 18 to Food",
+      "mute": true,
+      "economy": {
+        "food": 14,
+        "wood": 4
+      }
+    },
+    {
+      "time": 400,
+      "text": "Villager 19 to Food. Builds a second Lumber Camp.",
+      "economy": {
+        "food": 14,
+        "wood": 4,
+        "builder": 1
+      }
+    },
+    {
+      "time": 425,
+      "text": "Villager 20 to Wood",
+      "icons": [
+        {
+          "icon": "wood"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 5
+      }
+    },
+    {
+      "time": 450,
+      "text": "Villager 21 to Wood",
+      "mute": true,
+      "economy": {
+        "food": 15,
+        "wood": 6
+      }
+    },
+    {
+      "time": 475,
+      "text": "Villager 22 to Stone",
+      "icons": [
+        {
+          "icon": "stone",
+          "label": "3",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 6,
+        "stone": 1
+      }
+    },
+    {
+      "time": 500,
+      "text": "Villager 23 to Stone",
+      "mute": true,
+      "economy": {
+        "food": 15,
+        "wood": 6,
+        "stone": 2
+      }
+    },
+    {
+      "time": 525,
+      "text": "Villager 24 to Stone",
+      "mute": true,
+      "economy": {
+        "food": 15,
+        "wood": 6,
+        "stone": 3
+      }
+    },
+    {
+      "time": 550,
+      "text": "Villager 25 to Gold",
+      "icons": [
+        {
+          "icon": "gold",
+          "label": "2",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 6,
+        "stone": 3,
+        "gold": 1
+      }
+    },
+    {
+      "time": 575,
+      "text": "Villager 26 to Gold. Add 4 Farms.",
+      "icons": [
+        {
+          "icon": "farm",
+          "label": "4",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 6,
+        "stone": 3,
+        "gold": 2
+      }
+    },
+    {
+      "time": 600,
+      "text": "Click up to Feudal Age.",
+      "icons": [
+        {
+          "icon": "feudal_age"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 6,
+        "stone": 3,
+        "gold": 2
+      }
+    },
+    {
+      "time": 625,
+      "text": "Reach Feudal Age. Villagers 27 and 28 to Stone.",
+      "icons": [
+        {
+          "icon": "stone",
+          "label": "5",
+          "label_position": "before"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 6,
+        "stone": 5,
+        "gold": 2
+      }
+    },
+    {
+      "time": 650,
+      "text": "Build a Blacksmith and a Market.",
+      "icons": [
+        {
+          "icon": "blacksmith"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 4,
+        "stone": 5,
+        "gold": 2,
+        "builder": 2
+      }
+    },
+    {
+      "time": 850,
+      "text": "Click to Castle Age.",
+      "icons": [
+        {
+          "icon": "castle_age"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 6,
+        "stone": 5,
+        "gold": 2
+      }
+    },
+    {
+      "time": 875,
+      "text": "Queue Loom",
+      "icons": [
+        {
+          "icon": "loom"
+        }
+      ]
+    },
+    {
+      "time": 900,
+      "text": "Make a Castle and a Monastery",
+      "icons": [
+        {
+          "icon": "castle"
+        },
+        {
+          "icon": "monastery"
+        }
+      ],
+      "economy": {
+        "food": 15,
+        "wood": 4,
+        "stone": 5,
+        "gold": 2,
+        "builder": 2
+      }
+    },
+    {
+      "time": 1060,
+      "text": "Castle Age reached."
+    }
+  ]
+}

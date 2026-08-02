@@ -14,6 +14,13 @@
     "approved": false
   },
   {
+    "id": "fast_castle_unique_unit",
+    "title": "Fast Castle Unique Unit",
+    "duration_in_game_seconds": 1060,
+    "audio_generated_at": "2026-08-02T20:21:18Z",
+    "approved": false
+  },
+  {
     "id": "feudal_age_tower_build_order_gpt",
     "title": "Feudal Age Tower Rush",
     "duration_in_game_seconds": 510,
