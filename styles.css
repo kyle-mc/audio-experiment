@@ -197,7 +197,6 @@ main {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  flex-wrap: wrap;
 }
 
 .progress-row {
@@ -210,7 +209,7 @@ main {
 
 @media (max-width: 640px) {
   .progress-row {
-    flex-basis: 100%;
+    display: none;
   }
 }
 
