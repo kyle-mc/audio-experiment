@@ -1,5 +1,12 @@
 [
   {
+    "id": "arena_scouts",
+    "title": "Arena Scouts",
+    "duration_in_game_seconds": 930,
+    "audio_generated_at": "2026-08-02T05:22:40Z",
+    "approved": false
+  },
+  {
     "id": "fast_castle_knights",
     "title": "Fast Castle Knights",
     "duration_in_game_seconds": 830,
