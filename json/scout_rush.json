@@ -208,11 +208,14 @@
       }
     },
     {
-      "time": 475,
-      "text": "Build a Barracks",
+      "time": 490,
+      "text": "Build a Barracks and House",
       "icons": [
         {
           "icon": "barracks"
+        },
+        {
+          "icon": "house"
         }
       ]
     },
