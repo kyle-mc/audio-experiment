@@ -67,12 +67,9 @@
       }
     },
     {
-      "time": 135,
-      "text": "Send sheep villager to lure boar"
-    },
-    {
       "time": 150,
       "text": "Villager 9 to Wood",
+      "mute": true,
       "economy": {
         "food": 6,
         "wood": 3
@@ -80,9 +77,22 @@
     },
     {
       "time": 175,
-      "text": "Villager 10 Build 2 Houses. To Berries.",
+      "text": "Villager 10 Lure Boar",
+      "icons": [
+        {
+          "icon": "boar"
+        }
+      ],
       "economy": {
-        "food": 6,
+        "food": 7,
+        "wood": 3
+      }
+    },
+    {
+      "time": 200,
+      "text": "Villager 11 Build 2 Houses and Mill",
+      "economy": {
+        "food": 7,
         "wood": 3,
         "builder": 1
       },
@@ -93,13 +103,13 @@
           "label_position": "before"
         },
         {
-          "icon": "berries"
+          "icon": "mill"
         }
       ]
     },
     {
-      "time": 200,
-      "text": "Villager 11 to Boar",
+      "time": 225,
+      "text": "Villager 12 to Boar",
       "icons": [
         {
           "icon": "boar",
@@ -107,15 +117,6 @@
           "label_position": "before"
         }
       ],
-      "economy": {
-        "food": 7,
-        "wood": 3,
-        "builder": 1
-      }
-    },
-    {
-      "time": 225,
-      "text": "Villager 12 to Boar",
       "economy": {
         "food": 8,
         "wood": 3,
