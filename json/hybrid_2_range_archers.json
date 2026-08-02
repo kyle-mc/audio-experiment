@@ -6,7 +6,10 @@
   "steps": [
     {
       "time": 0,
-      "text": "Hybrid map archer opening"
+      "text": "Hybrid map archer opening",
+      "economy": {
+        "food": 3
+      }
     },
     {
       "time": 25,
@@ -15,17 +18,26 @@
         {
           "icon": "sheep"
         }
-      ]
+      ],
+      "economy": {
+        "food": 4
+      }
     },
     {
       "time": 50,
       "text": "Villager 5 to Food",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 5
+      }
     },
     {
       "time": 75,
       "text": "Villager 6 to Food",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 6
+      }
     },
     {
       "time": 100,
@@ -34,22 +46,38 @@
         {
           "icon": "wood"
         }
-      ]
+      ],
+      "economy": {
+        "food": 6,
+        "wood": 1
+      }
     },
     {
       "time": 125,
       "text": "Villager 8 to Wood",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 2
+      }
     },
     {
       "time": 150,
       "text": "Villager 9 to Wood",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 3
+      }
     },
     {
       "time": 175,
       "text": "Villager 10 to Wood",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 4
+      }
     },
     {
       "time": 200,
@@ -58,7 +86,11 @@
         {
           "icon": "boar"
         }
-      ]
+      ],
+      "economy": {
+        "food": 7,
+        "wood": 4
+      }
     },
     {
       "time": 225,
@@ -69,7 +101,12 @@
           "label": "2",
           "label_position": "before"
         }
-      ]
+      ],
+      "economy": {
+        "food": 7,
+        "wood": 4,
+        "builder": 1
+      }
     },
     {
       "time": 250,
@@ -78,16 +115,28 @@
         {
           "icon": "wood"
         }
-      ]
+      ],
+      "economy": {
+        "food": 8,
+        "wood": 5
+      }
     },
     {
       "time": 275,
       "text": "Villager 14 to Wood",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 8,
+        "wood": 6
+      }
     },
     {
       "time": 300,
-      "text": "Villager 15 to Boar"
+      "text": "Villager 15 to Boar",
+      "economy": {
+        "food": 9,
+        "wood": 6
+      }
     },
     {
       "time": 325,
@@ -101,7 +150,11 @@
           "label": "4",
           "label_position": "before"
         }
-      ]
+      ],
+      "economy": {
+        "food": 10,
+        "wood": 6
+      }
     },
     {
       "time": 350,
@@ -110,37 +163,62 @@
         {
           "icon": "boar"
         }
-      ]
+      ],
+      "economy": {
+        "food": 11,
+        "wood": 6
+      }
     },
     {
       "time": 375,
       "text": "Villager 18 to Food",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 12,
+        "wood": 6
+      }
     },
     {
       "time": 400,
-      "text": "Villager 19 to Food. Research Loom.",
+      "text": "Villager 19 to Food",
+      "mute": true,
+      "economy": {
+        "food": 13,
+        "wood": 6
+      }
+    },
+    {
+      "time": 425,
+      "text": "Villager 20 to Food. Research Loom.",
       "icons": [
         {
           "icon": "loom"
         }
-      ]
+      ],
+      "economy": {
+        "food": 14,
+        "wood": 6
+      }
     },
     {
-      "time": 425,
-      "text": "Click to Feudal Age with 19 villagers and 3 fishing ships. A fourth ship is on the way.",
+      "time": 450,
+      "text": "Click to Feudal Age with 20 villagers and 3 fishing ships. A fourth ship is on the way.",
       "icons": [
         {
           "icon": "feudal_age"
         }
-      ]
+      ],
+      "economy": {
+        "food": 14,
+        "wood": 6
+      }
     },
     {
-      "time": 440,
+      "time": 465,
       "text": "Move everyone from Food to Wood except 3 to Gold",
       "economy": {
-        "food": 5,
-        "wood": 16,
+        "food": 0,
+        "wood": 17,
         "gold": 3
       },
       "icons": [
@@ -152,16 +230,21 @@
       ]
     },
     {
-      "time": 490,
+      "time": 515,
       "text": "Build a Barracks",
       "icons": [
         {
           "icon": "barracks"
         }
-      ]
+      ],
+      "economy": {
+        "wood": 16,
+        "gold": 3,
+        "builder": 1
+      }
     },
     {
-      "time": 555,
+      "time": 580,
       "text": "Build an Archery Range and a Blacksmith.",
       "icons": [
         {
@@ -172,10 +255,15 @@
         {
           "icon": "blacksmith"
         }
-      ]
+      ],
+      "economy": {
+        "wood": 15,
+        "gold": 3,
+        "builder": 2
+      }
     },
     {
-      "time": 565,
+      "time": 590,
       "text": "Research Double-Bit Axe",
       "icons": [
         {
@@ -184,51 +272,82 @@
       ]
     },
     {
-      "time": 580,
-      "text": "Villager 20 to Gold",
+      "time": 605,
+      "text": "Villager 21 to Gold",
       "icons": [
         {
           "icon": "gold",
           "label": "8",
           "label_position": "before"
         }
-      ]
-    },
-    {
-      "time": 605,
-      "text": "Villager 21 to Gold",
-      "mute": true
-    },
-    {
-      "time": 615,
-      "text": "Add a second Archery Range"
+      ],
+      "economy": {
+        "wood": 16,
+        "gold": 4,
+        "builder": 1
+      }
     },
     {
       "time": 630,
       "text": "Villager 22 to Gold",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "wood": 17,
+        "gold": 5
+      }
     },
     {
-      "time": 645,
-      "text": "Research Fletching"
+      "time": 640,
+      "text": "Add a second Archery Range",
+      "economy": {
+        "wood": 16,
+        "gold": 5,
+        "builder": 1
+      }
     },
     {
       "time": 655,
       "text": "Villager 23 to Gold",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "wood": 16,
+        "gold": 6,
+        "builder": 1
+      }
+    },
+    {
+      "time": 670,
+      "text": "Research Fletching"
     },
     {
       "time": 680,
       "text": "Villager 24 to Gold",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "wood": 17,
+        "gold": 7
+      }
     },
     {
       "time": 705,
       "text": "Villager 25 to Gold",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "wood": 17,
+        "gold": 8
+      }
     },
     {
-      "time": 720,
+      "time": 730,
+      "text": "Villager 26 to Gold",
+      "mute": true,
+      "economy": {
+        "wood": 17,
+        "gold": 9
+      }
+    },
+    {
+      "time": 745,
       "text": "Add up to 10 fishing ships",
       "icons": [
         {
@@ -239,106 +358,181 @@
       ]
     },
     {
-      "time": 730,
-      "text": "Villager 26 to Food"
-    },
-    {
       "time": 755,
       "text": "Villager 27 to Food",
+      "economy": {
+        "food": 1,
+        "wood": 17,
+        "gold": 9
+      }
+    },
+    {
+      "time": 780,
+      "text": "Villager 28 to Food",
       "mute": true,
       "icons": [
         {
           "icon": "food"
         }
-      ]
-    },
-    {
-      "time": 780,
-      "text": "Villager 28 to Food",
-      "mute": true
+      ],
+      "economy": {
+        "food": 2,
+        "wood": 17,
+        "gold": 9
+      }
     },
     {
       "time": 805,
       "text": "Villager 29 to Food",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 3,
+        "wood": 17,
+        "gold": 9
+      }
     },
     {
       "time": 830,
       "text": "Villager 30 to Food",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 4,
+        "wood": 17,
+        "gold": 9
+      }
     },
     {
       "time": 855,
       "text": "Villager 31 to Food",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 5,
+        "wood": 17,
+        "gold": 9
+      }
     },
     {
       "time": 880,
-      "text": "Villager 32 to Food. Builds a Mill once the sheep are gathered.",
+      "text": "Villager 32 to Food",
+      "mute": true,
+      "economy": {
+        "food": 6,
+        "wood": 17,
+        "gold": 9
+      }
+    },
+    {
+      "time": 905,
+      "text": "Villager 33 to Food. Builds a Mill once the sheep are gathered.",
       "icons": [
         {
           "icon": "mill"
         }
-      ]
+      ],
+      "economy": {
+        "food": 7,
+        "wood": 17,
+        "gold": 9
+      }
     },
     {
-      "time": 905,
-      "text": "Villager 33 to Food. Research Horse Collar.",
+      "time": 930,
+      "text": "Villager 34 to Food. Research Horse Collar.",
       "icons": [
         {
           "icon": "horse_collar"
         }
-      ]
-    },
-    {
-      "time": 930,
-      "text": "Villager 34 to Food",
-      "mute": true
+      ],
+      "economy": {
+        "food": 8,
+        "wood": 17,
+        "gold": 9
+      }
     },
     {
       "time": 955,
       "text": "Villager 35 to Food",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 9,
+        "wood": 17,
+        "gold": 9
+      }
     },
     {
       "time": 980,
       "text": "Villager 36 to Food",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 10,
+        "wood": 17,
+        "gold": 9
+      }
     },
     {
       "time": 1005,
       "text": "Villager 37 to Food",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 11,
+        "wood": 17,
+        "gold": 9
+      }
     },
     {
       "time": 1030,
       "text": "Villager 38 to Food",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 12,
+        "wood": 17,
+        "gold": 9
+      }
     },
     {
       "time": 1055,
       "text": "Villager 39 to Food",
-      "mute": true
+      "mute": true,
+      "economy": {
+        "food": 13,
+        "wood": 17,
+        "gold": 9
+      }
     },
     {
       "time": 1080,
-      "text": "Villagers 40 and 41 to Gold. Click to Castle Age.",
+      "text": "Villager 40 to Food",
+      "mute": true,
+      "economy": {
+        "food": 14,
+        "wood": 17,
+        "gold": 9
+      }
+    },
+    {
+      "time": 1105,
+      "text": "Villagers 41 and 42 to Gold. Click to Castle Age.",
       "icons": [
         {
           "icon": "castle_age"
         }
-      ]
+      ],
+      "economy": {
+        "food": 14,
+        "wood": 17,
+        "gold": 11
+      }
     },
     {
-      "time": 1240,
+      "time": 1265,
       "text": "Castle Age reached. Drop a Town Center immediately."
     },
     {
-      "time": 1250,
+      "time": 1275,
       "text": "Research Bodkin Arrow, Crossbow, and Bow Saw"
     },
     {
-      "time": 1330,
+      "time": 1355,
       "text": "Wait, then click up to Imperial Age quickly"
     }
   ]
