@@ -411,17 +411,12 @@
     },
     {
       "time": 980,
-      "text": "Villager 36 to Farms",
-      "mute": true,
+      "text": "Click to Castle Age. Rebalance Eco.",
       "economy": {
         "food": 23,
         "wood": 10,
         "gold": 3
-      }
-    },
-    {
-      "time": 1055,
-      "text": "Click to Castle Age. Rebalance Eco.",
+      },
       "icons": [
         {
           "icon": "castle_age"
