@@ -108,7 +108,7 @@
     },
     {
       "time": 225,
-      "text": "Villager 12 to Boar",
+      "text": "Villager 12 to Lure Boar",
       "economy": {
         "food": 9,
         "wood": 2,
@@ -124,11 +124,9 @@
         "wood": 2
       }
     },
-    
     {
       "time": 275,
       "text": "Villager 14 to Berries",
-      "mute": true,
       "icons": [
         {
           "icon": "berries",
@@ -219,7 +217,7 @@
       ]
     },
     {
-      "time": 530,
+      "time": 555,
       "text": "Build a Stable. Double-bit Axe.",
       "icons": [
         {
@@ -234,7 +232,7 @@
       ]
     },
     {
-      "time": 555,
+      "time": 580,
       "text": "Villager 20 to Straggler Trees",
       "icons": [
         {
@@ -247,7 +245,7 @@
       }
     },
     {
-      "time": 580,
+      "time": 605,
       "text": "Villager 21 to Farms",
       "icons": [
         {
@@ -262,7 +260,7 @@
       }
     },
     {
-      "time": 605,
+      "time": 630,
       "text": "Villager 22 to Farms",
       "mute": true,
       "economy": {
@@ -271,7 +269,7 @@
       }
     },
     {
-      "time": 630,
+      "time": 655,
       "text": "Villager 23 to Farms",
       "mute": true,
       "economy": {
@@ -280,7 +278,7 @@
       }
     },
     {
-      "time": 655,
+      "time": 680,
       "text": "Villager 24 to Farms",
       "mute": true,
       "economy": {
@@ -289,7 +287,7 @@
       }
     },
     {
-      "time": 680,
+      "time": 705,
       "text": "Villager 25 to Farms",
       "mute": true,
       "economy": {
@@ -298,7 +296,7 @@
       }
     },
     {
-      "time": 705,
+      "time": 730,
       "text": "Villager 26 to Farms",
       "mute": true,
       "economy": {
@@ -307,7 +305,7 @@
       }
     },
     {
-      "time": 730,
+      "time": 755,
       "text": "Villager 27 to Farms",
       "mute": true,
       "economy": {
@@ -316,7 +314,7 @@
       }
     },
     {
-      "time": 755,
+      "time": 780,
       "text": "Villager 28 to Gold",
       "icons": [
         {
@@ -332,7 +330,7 @@
       }
     },
     {
-      "time": 780,
+      "time": 805,
       "text": "Villager 29 to Gold",
       "mute": true,
       "economy": {
@@ -342,7 +340,7 @@
       }
     },
     {
-      "time": 805,
+      "time": 830,
       "text": "Villager 30 to Gold",
       "mute": true,
       "economy": {
@@ -352,7 +350,7 @@
       }
     },
     {
-      "time": 830,
+      "time": 855,
       "text": "Villager 31 to Farms",
       "icons": [
         {
@@ -368,7 +366,7 @@
       }
     },
     {
-      "time": 855,
+      "time": 880,
       "text": "Villager 32 to Farms. Build a blacksmith.",
       "icons": [
         {
@@ -382,7 +380,7 @@
       }
     },
     {
-      "time": 880,
+      "time": 905,
       "text": "Villager 33 to Farms",
       "mute": true,
       "economy": {
@@ -392,7 +390,7 @@
       }
     },
     {
-      "time": 905,
+      "time": 930,
       "text": "Villager 34 to Farms",
       "mute": true,
       "economy": {
@@ -402,7 +400,7 @@
       }
     },
     {
-      "time": 930,
+      "time": 955,
       "text": "Villager 35 to Farms",
       "mute": true,
       "economy": {
@@ -412,7 +410,7 @@
       }
     },
     {
-      "time": 955,
+      "time": 980,
       "text": "Villager 36 to Farms",
       "mute": true,
       "economy": {
@@ -422,7 +420,7 @@
       }
     },
     {
-      "time": 1030,
+      "time": 1055,
       "text": "Click to Castle Age. Rebalance Eco.",
       "icons": [
         {
@@ -431,7 +429,7 @@
       ]
     },
     {
-      "time": 1295,
+      "time": 1320,
       "text": "Turn on Auto-Reseed",
       "icons": [
         {
@@ -440,7 +438,7 @@
       ]
     },
     {
-      "time": 1475,
+      "time": 1500,
       "text": "Build Castle-Age Buildings",
       "icons": [
         {
@@ -455,7 +453,7 @@
       ]
     },
     {
-      "time": 1655,
+      "time": 1680,
       "text": "Build Castle",
       "icons": [
         {
