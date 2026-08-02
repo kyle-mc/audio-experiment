@@ -21,6 +21,13 @@
     "approved": false
   },
   {
+    "id": "hybrid_2_range_archers",
+    "title": "Hybrid 2 Range Archers",
+    "duration_in_game_seconds": 1330,
+    "audio_generated_at": "2026-08-02T06:40:50Z",
+    "approved": false
+  },
+  {
     "id": "hybrid_maps",
     "title": "Hybrid Maps",
     "duration_in_game_seconds": 580,

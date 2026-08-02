@@ -1,0 +1,245 @@
+{
+  "id": "hybrid_2_range_archers",
+  "title": "Hybrid 2 Range Archers",
+  "cover_art": null,
+  "game_speed": 1.7,
+  "steps": [
+    {
+      "time": 0,
+      "text": "Hybrid map archer opening"
+    },
+    {
+      "time": 25,
+      "text": "Villager 4 to Food"
+    },
+    {
+      "time": 50,
+      "text": "Villager 5 to Food",
+      "mute": true
+    },
+    {
+      "time": 75,
+      "text": "Villager 6 to Food",
+      "mute": true
+    },
+    {
+      "time": 100,
+      "text": "Villager 7 to Wood"
+    },
+    {
+      "time": 125,
+      "text": "Villager 8 to Wood",
+      "mute": true
+    },
+    {
+      "time": 150,
+      "text": "Villager 9 to Wood",
+      "mute": true
+    },
+    {
+      "time": 175,
+      "text": "Villager 10 to Wood",
+      "mute": true
+    },
+    {
+      "time": 200,
+      "text": "Villager 11 lures Boar"
+    },
+    {
+      "time": 225,
+      "text": "Villager 12 builds a House and a Dock"
+    },
+    {
+      "time": 250,
+      "text": "Villager 13 to Wood"
+    },
+    {
+      "time": 275,
+      "text": "Villager 14 to Wood",
+      "mute": true
+    },
+    {
+      "time": 300,
+      "text": "Villager 15 to Boar"
+    },
+    {
+      "time": 325,
+      "text": "Villager 16 lures Boar. Start building 3 to 4 fishing ships."
+    },
+    {
+      "time": 350,
+      "text": "Villager 17 to Food"
+    },
+    {
+      "time": 375,
+      "text": "Villager 18 to Food",
+      "mute": true
+    },
+    {
+      "time": 400,
+      "text": "Villager 19 to Food. Research Loom."
+    },
+    {
+      "time": 425,
+      "text": "Click to Feudal Age with 19 villagers and 3 fishing ships. A fourth ship is on the way."
+    },
+    {
+      "time": 440,
+      "text": "Move everyone from Food to Wood except 3 to Gold",
+      "economy": {
+        "food": 5,
+        "wood": 16,
+        "gold": 3
+      }
+    },
+    {
+      "time": 490,
+      "text": "Build a Barracks"
+    },
+    {
+      "time": 555,
+      "text": "Build an Archery Range and a Blacksmith.",
+      "icons": [
+        {
+          "icon": "archery_range"
+        },
+        {
+          "icon": "blacksmith"
+        }
+      ]
+    },
+    {
+      "time": 565,
+      "text": "Research Double-Bit Axe",
+      "icons": [
+        {
+          "icon": "double_bit_axe"
+        }
+      ]
+    },
+    {
+      "time": 580,
+      "text": "Villager 20 to Gold"
+    },
+    {
+      "time": 605,
+      "text": "Villager 21 to Gold",
+      "mute": true
+    },
+    {
+      "time": 615,
+      "text": "Add a second Archery Range"
+    },
+    {
+      "time": 630,
+      "text": "Villager 22 to Gold",
+      "mute": true
+    },
+    {
+      "time": 645,
+      "text": "Research Fletching"
+    },
+    {
+      "time": 655,
+      "text": "Villager 23 to Gold",
+      "mute": true
+    },
+    {
+      "time": 680,
+      "text": "Villager 24 to Gold",
+      "mute": true
+    },
+    {
+      "time": 705,
+      "text": "Villager 25 to Gold",
+      "mute": true
+    },
+    {
+      "time": 720,
+      "text": "Add up to 10 fishing ships"
+    },
+    {
+      "time": 730,
+      "text": "Villager 26 to Food"
+    },
+    {
+      "time": 755,
+      "text": "Villager 27 to Food",
+      "mute": true
+    },
+    {
+      "time": 780,
+      "text": "Villager 28 to Food",
+      "mute": true
+    },
+    {
+      "time": 805,
+      "text": "Villager 29 to Food",
+      "mute": true
+    },
+    {
+      "time": 830,
+      "text": "Villager 30 to Food",
+      "mute": true
+    },
+    {
+      "time": 855,
+      "text": "Villager 31 to Food",
+      "mute": true
+    },
+    {
+      "time": 880,
+      "text": "Villager 32 to Food. Builds a Mill once the sheep are gathered."
+    },
+    {
+      "time": 905,
+      "text": "Villager 33 to Food. Research Horse Collar."
+    },
+    {
+      "time": 930,
+      "text": "Villager 34 to Food",
+      "mute": true
+    },
+    {
+      "time": 955,
+      "text": "Villager 35 to Food",
+      "mute": true
+    },
+    {
+      "time": 980,
+      "text": "Villager 36 to Food",
+      "mute": true
+    },
+    {
+      "time": 1005,
+      "text": "Villager 37 to Food",
+      "mute": true
+    },
+    {
+      "time": 1030,
+      "text": "Villager 38 to Food",
+      "mute": true
+    },
+    {
+      "time": 1055,
+      "text": "Villager 39 to Food",
+      "mute": true
+    },
+    {
+      "time": 1080,
+      "text": "Villagers 40 and 41 to Gold. Click to Castle Age."
+    },
+    {
+      "time": 1240,
+      "text": "Castle Age reached. Drop a Town Center immediately."
+    },
+    {
+      "time": 1250,
+      "text": "Research Bodkin Arrow, Crossbow, and Bow Saw"
+    },
+    {
+      "time": 1330,
+      "text": "Wait, then click up to Imperial Age quickly"
+    }
+  ]
+}
