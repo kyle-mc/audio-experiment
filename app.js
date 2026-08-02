@@ -61,7 +61,8 @@ function renderBuildList(manifest) {
   for (const build of manifest) {
     const button = document.createElement("button");
     button.className = "build-button";
-    button.innerHTML = `<span class="build-title">${build.title}</span><span class="duration">${formatTime(build.duration_in_game_seconds)}</span>`;
+    const titleClass = build.approved ? "build-title approved" : "build-title";
+    button.innerHTML = `<span class="${titleClass}">${build.title}</span><span class="duration">${formatTime(build.duration_in_game_seconds)}</span>`;
     button.addEventListener("click", () => openBuild(build.id));
     buildList.appendChild(button);
   }

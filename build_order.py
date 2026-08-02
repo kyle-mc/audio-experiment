@@ -135,6 +135,7 @@ def write_manifest(json_dir=JSON_DIR):
             "title": build["title"],
             "duration_in_game_seconds": last_time,
             "audio_generated_at": generated_at.get(build["id"]),
+            "approved": build.get("approved", False),
         })
 
     manifest.sort(key=lambda b: b["title"])

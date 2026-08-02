@@ -90,6 +90,10 @@ main {
   min-width: 0;
 }
 
+.build-title.approved {
+  color: #4caf50;
+}
+
 .player {
   display: flex;
   flex-direction: column;
