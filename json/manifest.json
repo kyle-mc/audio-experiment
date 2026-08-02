@@ -46,7 +46,7 @@
     "title": "Scout Rush",
     "duration_in_game_seconds": 1680,
     "audio_generated_at": "2026-08-02T04:03:04Z",
-    "approved": false
+    "approved": true
   },
   {
     "id": "two_range_archers",

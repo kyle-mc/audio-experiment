@@ -2,6 +2,7 @@
   "id": "scout_rush",
   "title": "Scout Rush",
   "cover_art": null,
+  "approved": true,
   "game_speed": 1.7,
   "steps": [
     {
