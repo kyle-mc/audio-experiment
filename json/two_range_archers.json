@@ -67,8 +67,7 @@
     },
     {
       "time": 150,
-      "text": "Villager 9 to Wood",
-      "mute": true,
+      "text": "Villager 9 to Wood. Send sheep villager to lure boar.",
       "economy": {
         "food": 6,
         "wood": 3
@@ -95,7 +94,7 @@
     },
     {
       "time": 200,
-      "text": "Villager 11 to Boar. Lure Deer.",
+      "text": "Villager 11 to Boar",
       "icons": [
         {
           "icon": "boar",
